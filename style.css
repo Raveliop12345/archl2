@@ -1,9 +1,8 @@
-body {
+      body {
           font-family: Arial, sans-serif;
-          margin: 0;
-          padding: 30px;
           background-image: url(h.jpg);
           background-size: cover;
+          backgroung-repeat: no-repeat;
       }
       @Keyframes slide{
           0%{
@@ -21,8 +20,6 @@ body {
           min-height: 700px;
           text-align: right;
           padding: 30px;
-          align-content: left;
-          align-items:left;
 
           display: flex;
           align-items: flex-start;
@@ -56,9 +53,11 @@ body {
 }
 #r1{
     width: 400px;
+    height:1300px
     border: 2px solid #ddd;
-    padding: 25px;
-    margin-left: 100x;
+    padding: 40px;
+    margin-left: 90x;
+    margin-right: 100px;
     background-color: rgba(255, 255, 255, 0.527);
     text-align: center;
     border-radius: 50px;
